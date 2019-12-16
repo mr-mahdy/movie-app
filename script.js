@@ -24,7 +24,7 @@ function showMovies(movies) {
                 <div class="card-body">
                     <h5 class="card-title">${movie.Title}</h5>
                     <h6 class="card-subtitle mb-2">${movie.Year}</h6>
-                    <a href="detail.php?id${movie.imdbID}" class="btn btn-primary">Show Detail</a>
+                    <a href="detail.php?id=${movie.imdbID}" class="btn btn-primary">Show Detail</a>
                 </div>
             </div>
         </div>`;
